@@ -218,7 +218,7 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 } li.square:nth-child(2) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/pew_still.png');
    float: left;
    width:200px;
    height:200px;
@@ -227,7 +227,7 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 } li.square:nth-child(3) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/hunter_still.png');
    float: left;
    width:200px;
    height:200px;
@@ -236,7 +236,7 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 } li.square:nth-child(4) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/up_still.png');
    float: left;
    width:200px;
    height:200px;
@@ -245,7 +245,7 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 } li.square:nth-child(5) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -254,7 +254,7 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 } li.square:nth-child(6) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -264,7 +264,7 @@ li.square:nth-child(1) a {
    margin:10px;
 }
 li.square:nth-child(7) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -274,7 +274,7 @@ li.square:nth-child(7) a {
    margin:10px;
 }
 li.square:nth-child(8) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -284,7 +284,7 @@ li.square:nth-child(8) a {
    margin:10px;
 }
 li.square:nth-child(9) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -306,7 +306,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 } li.square:nth-child(2) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/pew_mov.gif');
    float: left;
    width:200px;
    height:200px;
@@ -315,7 +315,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 } li.square:nth-child(3) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/hunter_mov.gif');
    float: left;
    width:200px;
    height:200px;
@@ -324,7 +324,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 } li.square:nth-child(4) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/up_mov.gif');
    float: left;
    width:200px;
    height:200px;
@@ -333,7 +333,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 } li.square:nth-child(5) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -342,7 +342,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 } li.square:nth-child(6) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -351,7 +351,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 }li.square:nth-child(7) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -361,7 +361,7 @@ li.square:nth-child(1) a:hover {
    margin:10px;
 }
 li.square:nth-child(8) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
@@ -371,7 +371,7 @@ li.square:nth-child(8) a:hover {
    margin:10px;
 }
 li.square:nth-child(9) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/');
    float: left;
    width:200px;
    height:200px;
