@@ -202,14 +202,14 @@ ul.grid {
 }
 ul.grid li {
   background: url('images/grid_01.png');
-  height:200px;
   width:200px;
+  height:200px;
   margin:10%;
   float:left;
 }
 
 li.square:nth-child(1) a {
-   background: url('images/grid_01.png');
+   background: url('images/portfolio/astria_still.png');
    float: left;
    width:200px;
    height:200px;
@@ -263,9 +263,41 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 }
+li.square:nth-child(7) a {
+   background: url('images/grid_01.png');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+}
+li.square:nth-child(8) a {
+   background: url('images/grid_01.png');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+}
+li.square:nth-child(9) a {
+   background: url('images/grid_01.png');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+}
+
+/*GIFS THAT ANIMATE WHEN YOU HOVER */
 
 li.square:nth-child(1) a:hover {
-   background: url('images/grid_01_hover.gif');
+   background: url('images/portfolio/astria_mov.gif');
    float: left;
    width:200px;
    height:200px;
@@ -318,6 +350,35 @@ li.square:nth-child(1) a:hover {
    overflow:hidden;
    box-shadow: 6px 6px 6px black;
    margin:10px;
+}li.square:nth-child(7) a:hover {
+   background: url('images/grid_01_hover.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+}
+li.square:nth-child(8) a:hover {
+   background: url('images/grid_01_hover.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+}
+li.square:nth-child(9) a:hover {
+   background: url('images/grid_01_hover.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
 }
 
 /* unvisited link */
@@ -347,6 +408,8 @@ a:active {
 }
 
 .container {
+  margin:auto
+
 	width: 900px;
 	position: relative;
 }
