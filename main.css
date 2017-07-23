@@ -1,0 +1,387 @@
+.imageCenter{
+  align-self:center;
+  text-align:center;
+}
+<button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+body{
+  margin:0;
+
+}
+header{
+  background-image: linear-gradient(to bottom, #423f14, #161002 );
+  text-align: center;
+  background: url('images/skyline01.gif');
+  background-size: 200px;
+  background-repeat:repeat-x;
+  background-position: center;
+}
+
+footer{
+  padding: 12px;
+  background-color: #161007
+
+}
+p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  line-height:20px;
+  color:#a3b071;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17;
+}
+h1{
+  /*MAINTITLE*/
+  align-self: center;
+  text-align: center;
+  font-size: 70;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 10px;
+  color:#7d1197;
+}
+h2{
+  /*SUB-TITLE*/
+  align-self: center;
+  text-align: center;
+  font-size: 25;
+  font-family: 'Raleway', serif;
+  color:#a3b071;
+  margin-bottom: 10px;
+}
+h3{
+  /*DIVISIONS*/
+  align-self: center;
+  text-align: center;
+  font-size: 30;
+  font-weight:bold;
+  color:#a3b071;
+  font-family: 'Crimson Text', serif;
+}
+h3{
+  /*IMPORTANTTEXTS*/
+  align-self: center;
+  text-align: center;
+  font-size: 25;
+  font-weight:bold;
+  color:#a3b071;
+  font-family: 'Crimson Text', serif;
+}
+h4{
+  /*BIGGERTHANPARAGRAPHTEXTS*/
+  align-self: center;
+  text-align: center;
+  font-size: 25;
+  font-weight:bold;
+  color:#a3b071;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h5{
+  /*ImportantText*/
+  align-self: center;
+  text-align: center;
+  font-size: 22;
+  font-weight:bold;
+  color:#a3b071;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h6{
+  /*SmallText*/
+  align-self: center;
+  text-align: center;
+  font-size: 10;
+  font-weight:normal;
+  color:#a3b071;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu{
+  text-align:center;
+  background: url('images/sewer_margin.png');
+
+
+}
+.brownBG{
+background-image: linear-gradient(to bottom, #190f06, #0c0401 );
+}
+ul.pipe {
+    align-self: center;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background: url('images/sewer_margin.png');
+}
+
+li.pipeli{
+    float:left;
+    margin-right:25px;
+    height:100px;
+    width:130px;
+}
+
+ li.pipeli:nth-child(1) a {
+    background: url('images/menu_home.png');
+    height:100px;
+} li.pipeli:nth-child(2) a {
+    background: url('images/menu_portfolio.png');
+    height:100px;
+} li.pipeli:nth-child(3) a {
+    background: url('images/menu_resume.png');
+    height:100px;
+} li.pipeli:nth-child(4) a {
+    background: url('images/menu_question.png');
+    height:100px;
+} li.pipeli:nth-child(5) a {
+    background: url('images/menu_funstuff.png');
+    height:100px;
+} li.pipeli:nth-child(6) a {
+    background: url('images/menu_contact.png');
+    height:100px;
+}
+li.pipeli a {
+    display: block;
+    font-family: 'Raleway', serif;
+    background: url('images/sewer.png');
+    font-size: 25px;
+    color:#a3b071;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+.activePort {
+    background: url('images/menu_portfolio_high.png');
+}
+
+li.pipeli:nth-child(1) a:hover {
+   background: url('images/menu_home_hl.gif');
+   height:100px;
+} li.pipeli:nth-child(2) a:hover {
+   background: url('images/menu_port_hl.gif');
+   height:100px;
+} li.pipeli:nth-child(3) a:hover {
+   background: url('images/menu_resume_hl.gif');
+   height:100px;
+} li.pipeli:nth-child(4) a:hover {
+   background: url('images/menu_question_hl.gif');
+   height:100px;
+} li.pipeli:nth-child(5) a:hover {
+   background: url('images/menu_funstuff_hl.gif');
+   height:100px;
+} li.pipeli:nth-child(6) a:hover {
+   background: url('images/menu_contact_hl.gif');
+   height:100px;
+}
+li.activePort{
+  background: url('images/menu_portfolio_high.png');
+}
+
+.portfolioitem {
+    overflow: auto;
+    background-color: #251b23;
+    padding: 8px;
+    float:left;
+    width: 33.33%;
+    box-shadow: 2px 2px 2px black;
+    position: relative;
+    margin:5%;
+}
+ul.grid {
+	columns: 3
+
+}
+ul.grid li {
+  background: url('images/grid_01.png');
+  width:200px;
+  height:200px;
+  margin:10%;
+  float:left;
+}
+
+li.square:nth-child(1) a {
+   background: url('images/portfolio/sa_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+} li.square:nth-child(2) a {
+   background: url('images/portfolio/astria_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+} li.square:nth-child(3) a {
+   background: url('images/portfolio/up_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+} li.square:nth-child(4) a {
+   background: url('images/portfolio/rav_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+} li.square:nth-child(5) a {
+   background: url('images/portfolio/pew_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+} li.square:nth-child(6) a {
+   background: url('images/portfolio/hunter_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+}
+li.square:nth-child(7) a {
+   background: url('images/portfolio/adv_still.jpg');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 5px 5px 5px black;
+   margin:10px;
+}
+
+
+/*GIFS THAT ANIMATE WHEN YOU HOVER */
+
+li.square:nth-child(1) a:hover {
+   background: url('images/portfolio/sa_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+} li.square:nth-child(2) a:hover {
+   background: url('images/portfolio/astria_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+} li.square:nth-child(3) a:hover {
+   background: url('images/portfolio/up_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+} li.square:nth-child(4) a:hover {
+   background: url('images/portfolio/rav_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+} li.square:nth-child(5) a:hover {
+   background: url('images/portfolio/pew_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+} li.square:nth-child(6) a:hover {
+   background: url('images/portfolio/hunter_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+}li.square:nth-child(7) a:hover {
+   background: url('images/portfolio/adv_mov.gif');
+   float: left;
+   width:200px;
+   height:200px;
+   display:block;
+   overflow:hidden;
+   box-shadow: 6px 6px 6px black;
+   margin:10px;
+}
+
+
+/* unvisited link */
+a:link {
+    color:#5E935E;
+}
+
+/* visited link */
+a:visited {
+      color:#60567E;
+}
+
+/* mouse over link */
+a:hover {
+      color:#C8D2A0;
+}
+
+/* selected link */
+a:active {
+      color:#EFF6D6;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin:auto;
+  margin-bottom: 10%;
+	width: 900px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
