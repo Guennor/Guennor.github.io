@@ -3,53 +3,123 @@
   <title>
     Igor's Website
   </title>
-  <link rel="stylesheet" type="text/css" href="../reset.css">
+  <link rel="stylesheet" type="text/css" href="../../reset.css">
   <link rel="stylesheet" href="../../main.css" />
   <meta name="theme-color" content="#7d1197"/>
 <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro|Titillium+Web" rel="stylesheet">
 </head>
 
-<body id="starassassin">
+<body id="upup">
   <header>
-
+<a href="../../index.html">
     <img src="../../images/main_logo.gif" alt="Animated gif of my face." height="200" width="200">
+</a>
   </header>
 <div class="brownBG">
 
   <div class="imageCenter">
+      <a href="../../index.html">
       <img src="../../images/title.png" alt="IGOR HATAKEYAMA" align="middle" height="150" width="300">
+  </a>
   </div>
   <h2>Game Designer & Game Developer</h2>
-
+<div id="skip">
   <div class = "menu" id="menu">
   <ul class = "pipe">
   <li class ="pipeli"><a href="../../index.html"></a></li>
   <li class ="pipeli"><a href="../index.html" class="activePort"></a></li>
-  <li class ="pipeli"><a href="3"></a></li>
-  <li class ="pipeli"><a href="4"></a></li>
-  <li class ="pipeli"><a href="5"></a></li>
-  <li class ="pipeli"><a href="6"></a></li>
+  <li class ="pipeli"><a href="../../construction.html"></a></li>
+  <li class ="pipeli"><a href="../../construction.html"></a></li>
+  <li class ="pipeli"><a href="../../construction.html"></a></li>
+  <li class ="pipeli"><a href="../../construction.html"></a></li>
   </ul>
   </div>
-
+  </div>
   <div class="imageCenter">
 
   <h5>Up, Up!</h5>
-  <p>Status: <i>Unfinished </i></p>
-  <img src="../../images/portfolio/" alt="" align="middle">
-  <p><b>Up, Up!</b> blablablablabla</p>
 
+  <p>My role in this project: <b>EVERYTHING!</b><p>
+  <img src="../../images/portfolio/upup_icon.png" alt="" align="middle">
+  <p><i><b>tl;dr:</b> Another sort of "runner" game where you swipe to create wind and get your little creature as high as
+  possible, while avoiding obstacles. The simple idea was devised by me during a game jam.</i></p>
+  <p>The concept behind <b>Up, Up!</b> was created during a ludum dare game jam. The theme was <a href="http://ludumdare.com/compo/ludum-dare-36/" target="_blank">Ancient Technology</a>, and
+  I quickly came up with the idea of making a game with physics-based movement, where you created wind to go as high
+  up as possible. The game was unoriginally called "WindPowered!" and I managed to make it during the 72 hours available
+  to me. You can play it <a href ="../../files/WindPoweredWebGL/index.html" target="_blank">here</a>(might take a while
+  to load, sit tight!)</p>
+  <p>It was the only game jam competition that I managed to finish a
+      presentable game, but unfortunately, it was also the only one where they didn't hold votings for different categories
+      due to a problem they were having. The <a href="http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=28702">
+      really nice comments</a> that people made were awesome to read, though.</p>
+  <img src="../../images/portfolio/upup_wp1.gif" alt="" align="middle">
+    <img src="../../images/portfolio/upup_wp2.gif" alt="" align="middle">
+    <h6>A gif showing the original prototype with placeholder art assets and another one with the finished game.</h6>
 
+    <p>The most important part of this is that I was able to make a game with some fun potential, from scratch, in 3
+    days. I wondered if I could make an improved commercial version in maybe a month - I had just left my previous job,
+    and could use some ad revenue money. I had some savings that I could use to last for a month anyway.
+    That's when I came up with Up, Up!</p>
 <h2>The game</h2>
-<p>blablablaal</p>
+<p>The premise of the game is the same. Swipe to create wind. Move up and avoid obstacles, find challenges along the way.
+Instead of using the 2D graphics of the game jam, I chose to make it hard-edge 3D lowpoly, with no textures, just painted polygons.</p>
+ <img src="../../images/portfolio/upup_cover.gif" alt="" align="middle">
+<h6>I always liked this style and this was the first time I tried to use it.</h6>
+<p>I thought of some small features to make the gameplay less bland. One feature was already present in WindPowered!,
+so I took it and improved it - Wind gates, as I called them, were literal gates blocking upward movement, and to open
+these gates you have to swipe in the direction where the arrows are poiting, in the order displayed onscreen.
+There were other types of gates planned, like the windy crank gate, which would spin if you created wind, so you needed
+to keep making wind to spin it so it would slowly open up.</p>
+<img src="../../images/portfolio/upup_gameplay.gif" alt="" align="middle">
+<h6>Wind Gates could have from 3 to 5 directions you needed to swipe in order. They could either be harmless or have spikes.</h6>
+<p>Another nice little system that was starting to take shape was the weather and random event system. In the latest version
+there was just lightning, thought I made it easy-ish to add new events. After a certain height was passed, there was a tiny chance
+on each swipe that would cause lightning and a storm.</p>
+<img src="../../images/portfolio/upup_thunder.gif" alt="" align="middle">
+<h6>In the current stage of the game, thunderstorms don't do anything other than obscuring sight a bit, but I had cooler
+plans for it, like winds that move you a bit and charged clouds that kill you if you go under them.</h6>
 
+<p>Another element I added to the game is a simple crafting system. You gathered resources during the game and could use
+those to craft other resources and items. You start with broken crafting stations that you have to repair to be able to
+use, and as you repair them you are given access to new items you can make. You can also repair the mines and use pickaxes
+to get ores, by actively reaching certain distances, depending on the ore. For instance, if a certain ore required 1000
+meters, you'd get it after playing once and reaching 400 meters and then another time and reaching 600 meters. Rare ores
+would require a lot of meters to be gathered.
+
+The ultimate items were shields that broke after a few impacts, to help you reach new heights. But I had a few ideas for
+other items that could make the game more interesting, I just didn't want to add them to the GDD or else i'd take too long
+to finish the game. I had only 1 month, after all.</p>
+<img src="../../images/portfolio/upup_craft.gif" alt="" align="middle">
+<img src="../../images/portfolio/upup_craftitem.jpg" alt="" align="middle">
+<h6>To the left, the crafting stations being repaired and used. I crafted a simple wooden pickaxe to be able to use the mines
+    (most UI images are placeholder!). To the right, some documentation I wrote in order not to forget the many items of the system.</h6>
+
+<p>During the development of the game, I was fortunate enough to be able to afford to go to Unite 2016 with a couple game
+developer buddies of mine. There I watched a presentation about using Unity Ads, exactly what I needed in my game.
+The presentation was given by <a href="https://www.linkedin.com/in/laurenckoester/" target="_blank">Lauren Koester</a>, then business development manager at Unity Ads. It was not so much about the
+technical part of implementing ads in a game, but more about engaging ways to do it.
+After her presentation I was humbled to be able to meet her and show her Up, Up! and get some guidance on ways to
+monetize my game in an honest, but engaging way. She gave me her card and a really cool sticker. :D
+</p>
+<img src="../../images/portfolio/upup_unite.png" alt="" align="middle">
+<h6>Some random picture I took of the event. I know it's just a table, but trust me when I say this was the best picture of the event that I could find. The
+rest were pictures of the snack tables they had there.</h6>
+
+<p>After the event I came home with my notes and started to create the variables and classes that would make the monetization
+of my game possible. The first thing that I tried to make was the "watch an ad to revive" system. The concept was simple enough,
+but I had trouble when it came to implementing daily ad limits.</p>
+<img src="../../images/portfolio/upup_revive.gif" alt="" align="middle">
+<h6>No matter how hard I tried to make it work or how many tutorials I watched, I could never make this "ad" button work. I remember the frustration to this day!</h6>
+<p>It was almost the end of the month and my funds ran out. It turned out that one month was not enough to finish the game,
+    even though I managed to get a lot done in such little time. I had to move on to doing freelance stuff and had to shelf
+    the project. Much later I tried to go back to the project again, while still working on other projects, but failed to
+    continue working on it properly - it was very hard to understand the code that I once wrote, and I also had some trouble
+    authenticating the project with google play again, so I decided that until I have more time to work with it, i'll just
+leave it as it is.</p>
 </div>
 
-
 <footer>
-
     <h6>This simple website was made by me (with some help from my buddy Marcos!). I'd much rather have a simple website made by myself than a fancy one that I paid someone to make for me. Gotta have dat html/css knowledge!</h6>
-
 </footer>
 </div>
 </body>

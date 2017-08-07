@@ -1,3 +1,4 @@
+
 .imageCenter{
   align-self:center;
   text-align:center;
@@ -132,10 +133,10 @@ li.pipeli{
     background: url('images/menu_portfolio.png');
     height:100px;
 } li.pipeli:nth-child(3) a {
-    background: url('images/menu_resume.png');
+    background: url('images/menu_question.png');
     height:100px;
 } li.pipeli:nth-child(4) a {
-    background: url('images/menu_question.png');
+    background: url('images/menu_resume.png');
     height:100px;
 } li.pipeli:nth-child(5) a {
     background: url('images/menu_funstuff.png');
@@ -171,10 +172,10 @@ li.pipeli:nth-child(1) a:hover {
    background: url('images/menu_port_hl.gif');
    height:100px;
 } li.pipeli:nth-child(3) a:hover {
-   background: url('images/menu_resume_hl.gif');
+   background: url('images/menu_question_hl.gif');
    height:100px;
 } li.pipeli:nth-child(4) a:hover {
-   background: url('images/menu_question_hl.gif');
+   background: url('images/menu_resume_hl.gif');
    height:100px;
 } li.pipeli:nth-child(5) a:hover {
    background: url('images/menu_funstuff_hl.gif');
