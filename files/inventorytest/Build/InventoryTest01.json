@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "InventoryTest01.data.unityweb",
+"asmCodeUrl": "InventoryTest01.asm.code.unityweb",
+"asmMemoryUrl": "InventoryTest01.asm.memory.unityweb",
+"asmFrameworkUrl": "InventoryTest01.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
