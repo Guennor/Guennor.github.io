@@ -1,3 +1,4 @@
+html{min-height: 100%;}
 
 .imageCenter{
   align-self:center;
@@ -6,7 +7,8 @@
 <button data-toggle="collapse" data-target="#demo">Collapsible</button>
 
 body{
-  margin:0;
+    margin:0;
+    background-image:none;
 
 }
 header{
@@ -20,7 +22,8 @@ header{
 
 footer{
   padding: 12px;
-  background-color: #161007
+  background-color: #161007;
+
 
 }
 p{
