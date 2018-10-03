@@ -94,9 +94,11 @@ h5{
 }
 h6{
   /*SmallText*/
+    padding-left: 10%;
+    padding-right: 10%;
   align-self: center;
   text-align: center;
-  font-size: 10;
+  font-size: 12;
   font-weight:normal;
   color:#a3b071;
   font-family: 'Source Sans Pro', sans-serif;
