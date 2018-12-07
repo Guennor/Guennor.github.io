@@ -261,7 +261,7 @@ li.square:nth-child(1) a {
    box-shadow: 5px 5px 5px black;
    margin:10px;
 } li.square:nth-child(6) a {
-   background: url('images/portfolio/tw_still.jpg');
+   background: url('images/portfolio/ta_still.jpg');
    float: left;
    width:200px;
    height:200px;
@@ -340,7 +340,7 @@ li.square:nth-child(1) a:hover {
    box-shadow: 6px 6px 6px black;
    margin:10px;
 } li.square:nth-child(6) a:hover {
-   background: url('images/portfolio/tw_mov.gif');
+   background: url('images/portfolio/ta_mov.gif');
    float: left;
    width:200px;
    height:200px;
