@@ -7,15 +7,69 @@
 <style> </style>
 
 </head>
-
 <body>
-
-    <p id="output"> You find yourself in a cold room.  </p>
-    <img id="imgg" src="">
-    <br>
+    
+        <p>Type "hint" any time to get a hint about what to do.</p>
+    <div id="map">
+        <img id="wl" src="images/w_wall.png"><!-- 0 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 5 -->
+        <img id="ptn" src="images/w_right.png">
+        <img id="srd" src="images/w_t.png">
+        <img id="bss" src="images/w_left.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 10 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="mst" src="images/w_updown.png">
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 15 -->
+        <img id="mp" src="images/w_right.png">
+        <img id="int" src="images/w_plus.png">
+        <img id="svr" src="images/w_left.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 20 -->
+        <img id="wl" id="wl" src="images/w_wall.png">
+        <img id="jm" src="images/w_updown.png"> <!-- 22 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 25 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="str" src="images/w_updown.png"> <!-- 27 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 30 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="gdr" src="images/w_up.png">
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <br>
+        <img id="wl" src="images/w_wall.png"><!-- 35 -->
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        <img id="wl" src="images/w_wall.png">
+        
+        
+    </div>
+    <canvas id="cvs" width="300" height="300" style="border: 1px dashed black"> </canvas>
+    <br/>
     <input id="guessbox" type="type" placeholder="Enter your command...." autofocus>
     <button id="submit"> Input </button>
-    <p>Type "tip" any time to get a tip about what to do.</p>
+    <div class="scrolling">
+        <p class="card" id="output"> You find yourself in a cold room.  </p>
+        </div>
+    <img id="imgg" src="">
+    <br>
     <h6>A short adventure game by Igor Hatakeyama. Please don't check the source code for answers/easter eggs, and have fun!</h6    >
 
 </body>

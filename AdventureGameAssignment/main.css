@@ -1,3 +1,78 @@
 h6{
 font-size: 5;
 }
+
+#map{
+background-color: lightgoldenrodyellow;
+float:right;
+width: 390px;
+}
+
+#wl{
+border-color:white;
+border-style:double;
+border-width:5px";
+}
+
+
+#ptn{
+border-color:white;
+border-style:double;
+border-width:5px;  
+}
+#srd{
+border-color:white;
+border-style:double;
+border-width:5px; 
+}
+#bss{
+border-color:white;
+border-style:double;
+border-width:5px; 
+}
+#mst{
+border-color:white;
+border-style:double;
+border-width:5px; 
+}
+#svr{
+border-color:white;
+border-style:double;
+border-width:5px;  
+}
+#gdr{
+border-color:white;
+border-style:double;
+border-width:5px; 
+}
+#str{
+border-color:white;
+border-style:double;
+border-width:5px; 
+}
+#jm{
+border-color:white;
+border-style:double;
+border-width:5px;   
+}
+#int{
+border-color:white;
+border-style:double;
+border-width:5px;  
+}
+#mp{
+border-color:white;
+border-style:double;
+border-width:5px; 
+}
+
+.scrolling {
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: nowrap;
+    height: 250px;
+
+  .card {
+    display: inline-block;
+  }
+}
